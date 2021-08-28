@@ -81,7 +81,7 @@ def start(update:Update, context:CallbackContext) -> None:
             sendMessage(f"<b>I'm Awake Already!</b>\n<b>Haven't Slept Since:</b> <code>{uptime}</code>", context.bot, update)
     else :
         uname = f'<a href="tg://user?id={update.message.from_user.id}">{update.message.from_user.first_name}</a>'
-        sendMessage(f"<b>Hei {uname},</b>\n\n<b>If You Want To Use Me</b>\n\n<b>You Have To Join @GautamS_Mirror</b>\n\n<b><i>NOTE : All The Uploaded Links Will Be Sent Here In Your Private Chat From Now</i></b>", context.bot, update)
+        sendMessage(f"<b>Hei {uname},</b>\n\n<b>If You Want To Use Me</b>\n\n<b>You Have To Join @Animeprovider</b>\n\n<b><i>NOTE : All The Uploaded Links Will Be Sent Here In Your Private Chat From Now</i></b>", context.bot, update)
 
 
 
